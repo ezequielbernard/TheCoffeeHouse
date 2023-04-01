@@ -1,0 +1,379 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+html, body
+{
+  width: 100%;
+  height: 100vh
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@400;700&display=swap');
+
+.topnav {
+  background-color: whitesmoke;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  display: block;
+  padding: 0%;
+  margin: -5px;
+  width: 70px;
+  background-size: cover;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  height: 60px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media only screen and (max-width:550px) {
+  .topnav {
+    display: block;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width:550px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+
+.c-item {
+  height: 650px;
+  filter: brightness(0.8);
+  cursor: auto;
+  width: 100%;
+  
+}
+
+.c-img {
+  height: 100%;
+  width: 100%;
+  object-fit: initial;
+  filter: brightness(0.8);
+  cursor: auto;
+}
+
+@media only screen and (max-width:550px) {
+  .c-item {
+    height: 400px;
+  }
+}
+
+.grid-layout {
+  background-color: beige;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  cursor: auto;
+}
+
+.cafeteras-txt {
+  width: auto;
+  height: auto;
+  background-color: beige;
+  text-align: center;
+  margin: 25px;
+  text-decoration: none;
+}
+
+.cafeteras-txt h1 {
+  color: black;
+  margin-top: 70px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.cafeteras-txt p {
+  color: black;
+  margin-bottom: 85px;
+}
+
+@media only screen and (max-width:550px) {
+  .grid-layout {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.178)), url("/Img/Img Varias/cafetera-moka-italiana-bigstock.jpeg");
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width:550px) {
+  .cafeteras-txt {
+    display: inline-block;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+@media only screen and (max-width:550px) {
+  .cafeteras-txt p {
+    color: white;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width:550px) {
+  .cafeteras-txt h1 {
+    color: white;
+    font-weight: bold;
+  }
+}
+
+
+@media only screen and (max-width:550px) {
+  .cafeteras-img {
+    display: none;
+  }
+}
+
+footer {
+  background-color: black;
+  height: auto;
+  width: 100%;
+  padding-top: 10px;
+  cursor: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  cursor: auto;
+}
+
+.footer-contenido p {
+  max-width: 700px;
+  margin: auto;
+  line-height: 28px;
+  font-size: 16px;
+  color: whitesmoke;
+  cursor: auto;
+}
+
+.socials-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 10px 0;
+}
+
+.socials-icons li {
+  margin: 0 10px;
+}
+
+.socials-icons a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.socials-icons a i {
+  font-size: 1.5rem;
+  transition: color .4s ease;
+}
+
+.socials-icons a:hover {
+  color: #ad7251;
+}
+
+.contenedor-contacto
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px 100px;
+}
+
+.contenedor-contacto:after
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./Img/Tazas.jpg);
+  background-size: cover;
+  z-index: -1;
+  filter: blur(40px);
+}
+
+.caja-contacto
+{
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.izquierda
+{
+  height: 100%;
+  background-image: url(./Img/Tazas.jpg) ;
+  background-size: cover;
+  
+}
+
+.derecha
+{
+  padding: 25px 40px;
+}
+
+.derecha h2
+{
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.derecha h2:after
+{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: #ad7251 ;
+}
+
+.relleno
+{
+  width: 100%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid rgba(0,0,0,0);
+  background-color: rgba(230,230,230,0.6);
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: .3s
+}
+
+.relleno:hover
+{
+  background-color: rgba(0,0,0,0.1);
+}
+
+.mensaje:focus
+{
+  background-color: #fff;
+  border: 2px solid rgba (30,85,250,0.47);
+}
+
+.relleno area
+{
+  min-height: 150px;
+}
+
+.derecha .btn
+{
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  background-color: #ad7251;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+  transition: .3s;
+}
+
+.derecha .btn:hover
+{
+  background-color: burlywood;
+}
+
+@media only screen and (max-width:550px)
+{
+  .contenedor-contacto
+  {
+    display: flex;
+    align-items: left;
+    align-self: left;
+    margin: 10px;
+    height: 500px;
+  }
+  .caja-contacto
+  {
+    grid-template-columns: 1fr;
+    min-width: 320px;
+    align-self: center;
+    align-items: center;
+  }
+  .caja-contacto h2
+  {
+    font-size: 30px;
+  }
+  input::placeholder
+  {
+    font-size: 15px;
+  }
+  textarea::placeholder
+  {
+    font-size: 15px;
+  }
+}
+
+
+
+
+/*ASÍ SE COMENTA EN CSS
+color: #ad7251*/

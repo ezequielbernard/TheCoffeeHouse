@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>The Coffee House</title>
+    <link rel="shortcut icon" href="./Img/LogoMarron.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7bed813118.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">    
+      <a title="Home" href="./Index.html"><img class="logo" src="./Img/Logosfletranegra.png" alt="Home"/></a>
+      <a href="./delaplantaalataza.html">De La Planta A Tu Taza</a>
+      <a href="./recetas.html">Recetas</a>
+      <a href="./cafeteras.html">Cafeteras</a>
+      <a href="./tienda.html">Tienda</a>
+      <a href="./contacto.html">Contacto</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+    </div>
+
+
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item" data-bs-interval="5000">
+        <img src="./Img/Carousel/granos.png" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption mt-4">
+          <h4 class="display-1 fw-bolder text-capitalize">De La Planta A Tu Taza</h4>
+          <p class="mt-2 fs-4 text-uppercase">Conocé el proceso por el que pasa un grano de café hasta llegar a tu casa</p>
+          <form action="./delaplantaalataza.html" target="_blank">
+            <button class="btn btn-primary" type="submit">LEER MÁS</button>
+          </form>
+        </div>  
+      </div>
+      <div class="carousel-item c-item" data-bs-interval="5000">
+        <img src="./Img/Carousel/7153408ae06a08ece20b190b6926b3b9c936340a-1210x1210.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-4">
+          <h4 class="display-1 fw-bolder text-capitalize">Recetas</h4>
+          <p class="mt-2 fs-4 text-uppercase">Prepara las mejores recetas con café de especialidad y sorprendete!</p>
+          <form action="./recetas.html" target="_blank">
+            <button class="btn btn-primary" type="submit">SABER MÁS</button>
+          </form>
+        </div>
+     
+        </div>
+      <div class="carousel-item c-item">
+        <img src="./Img/Carousel/flat-white.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-4">
+          <h4 class="display-1 fw-bolder text-capitalize">Tienda</h4>
+          <p class="mt-2 fs-4 text-uppercase">Descubrí todo lo que tenemos para vos</p>
+          <form action="./tienda.html" target="_blank">
+            <button class="btn btn-primary" type="submit">COMPRAR</button>
+          </form>
+        </div>
+       
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+  </div> 
+
+ <div class="grid-layout">
+  <div class="cafeteras-txt">
+    <h1>CAFETERAS</h1>
+    <p>¡Descubrí la mejor cafetera de espresso para tu hogar en The Coffee House! Conocé las tres opciones principales para preparar café de calidad en casa y descubrí cuál se ajusta a tus preferencias. ¡No pierdas más tiempo y convierte tu hogar en una cafetería de especialidad!</p>
+      <form action="./cafeteras.html" target="_blank">
+        <button class="btn btn-secondary" type="submit">SABER MÁS</button>
+      </form>
+  </div>
+  <div class="cafeteras-img">
+    <img src="./Img/Img Varias/cafetera-moka-italiana-bigstock.jpeg" height="500px" width="100%">
+  </div>
+ </div>
+
+ <footer>
+  <div class="footer-contenido">
+  <img src="./Img/Logo/pngcfondo/2.png">
+  <p>Apasionados por el café de especialidad, somos una empresa que busca la excelencia en cada taza y compartir nuestro conocimiento para elevar los estandares de calidad en toda Latinoamérica</p>
+
+<ul class="socials-icons">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+        </ul>
+  </div>
+</footer>
+
+    
+  <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+<!--ASÍ SE COMENTA EN HTML-->
