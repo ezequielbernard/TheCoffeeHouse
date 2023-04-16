@@ -1,5 +1,3 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -7,10 +5,13 @@
   transition: 0.5s;
 }
 
-html, body {
+html, body
+{
   width: 100%;
-  height: 100vh;
+  height: 100vh
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@400;700&display=swap');
 
 .topnav {
   background-color: whitesmoke;
@@ -49,41 +50,49 @@ html, body {
   display: none;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width:550px) {
   .topnav {
     display: block;
     width: auto;
   }
 }
+
 @media only screen and (max-width: 550px) {
   .topnav a:not(:first-child) {
     display: none;
   }
+
   .topnav a.icon {
     float: right;
     display: block;
   }
 }
-@media only screen and (max-width: 550px) {
+
+
+@media only screen and (max-width:550px) {
   .topnav.responsive {
     position: relative;
   }
+
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: center;
   }
 }
+
 .c-item {
   height: 650px;
   filter: brightness(0.8);
   cursor: auto;
   width: 100%;
+  
 }
 
 .c-img {
@@ -94,11 +103,12 @@ html, body {
   cursor: auto;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width:550px) {
   .c-item {
     height: 400px;
   }
 }
+
 .grid-layout {
   background-color: beige;
   width: 100%;
@@ -129,7 +139,7 @@ html, body {
   margin-bottom: 85px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width:550px) {
   .grid-layout {
     display: inline-block;
     height: auto;
@@ -139,30 +149,36 @@ html, body {
     background-size: cover;
   }
 }
-@media only screen and (max-width: 550px) {
+
+@media only screen and (max-width:550px) {
   .cafeteras-txt {
     display: inline-block;
     height: 100%;
     background-color: rgba(0, 0, 0, 0);
   }
 }
-@media only screen and (max-width: 550px) {
+
+@media only screen and (max-width:550px) {
   .cafeteras-txt p {
     color: white;
     font-size: small;
   }
 }
-@media only screen and (max-width: 550px) {
+
+@media only screen and (max-width:550px) {
   .cafeteras-txt h1 {
     color: white;
     font-weight: bold;
   }
 }
-@media only screen and (max-width: 550px) {
+
+
+@media only screen and (max-width:550px) {
   .cafeteras-img {
     display: none;
   }
 }
+
 footer {
   background-color: black;
   height: auto;
@@ -202,14 +218,15 @@ footer {
 
 .socials-icons a i {
   font-size: 1.5rem;
-  transition: color 0.4s ease;
+  transition: color .4s ease;
 }
 
 .socials-icons a:hover {
   color: #ad7251;
 }
 
-.contenedor-contacto {
+.contenedor-contacto
+{
   position: relative;
   display: flex;
   justify-content: center;
@@ -219,8 +236,9 @@ footer {
   padding: 20px 100px;
 }
 
-.contenedor-contacto:after {
-  content: "";
+.contenedor-contacto:after
+{
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -232,7 +250,8 @@ footer {
   filter: blur(40px);
 }
 
-.caja-contacto {
+.caja-contacto
+{
   max-width: 850px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -240,27 +259,32 @@ footer {
   align-items: center;
   text-align: center;
   background-color: #fff;
-  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
-.izquierda {
+.izquierda
+{
   height: 100%;
-  background-image: url(./Img/Tazas.jpg);
+  background-image: url(./Img/Tazas.jpg) ;
   background-size: cover;
+  
 }
 
-.derecha {
+.derecha
+{
   padding: 25px 40px;
 }
 
-.derecha h2 {
+.derecha h2
+{
   position: relative;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
 
-.derecha h2:after {
-  content: "";
+.derecha h2:after
+{
+  content: '';
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -268,34 +292,39 @@ footer {
   height: 4px;
   width: 50px;
   border-radius: 2px;
-  background-color: #ad7251;
+  background-color: #ad7251 ;
 }
 
-.relleno {
+.relleno
+{
   width: 100%;
   padding: 0.5rem 1rem;
   outline: none;
-  border: 2px solid rgba(0, 0, 0, 0);
-  background-color: rgba(230, 230, 230, 0.6);
+  border: 2px solid rgba(0,0,0,0);
+  background-color: rgba(230,230,230,0.6);
   font-size: 1.1rem;
   margin-bottom: 22px;
-  transition: 0.3s;
+  transition: .3s
 }
 
-.relleno:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+.relleno:hover
+{
+  background-color: rgba(0,0,0,0.1);
 }
 
-.mensaje:focus {
+.mensaje:focus
+{
   background-color: #fff;
-  border: 2px solid rgba 30, 85, 250, 0.47;
+  border: 2px solid rgba (30,85,250,0.47);
 }
 
-.relleno area {
+.relleno area
+{
   min-height: 150px;
 }
 
-.derecha .btn {
+.derecha .btn
+{
   width: 100%;
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
@@ -304,38 +333,47 @@ footer {
   outline: none;
   border: none;
   color: #fff;
-  transition: 0.3s;
+  transition: .3s;
 }
 
-.derecha .btn:hover {
+.derecha .btn:hover
+{
   background-color: burlywood;
 }
 
-@media only screen and (max-width: 550px) {
-  .contenedor-contacto {
+@media only screen and (max-width:550px)
+{
+  .contenedor-contacto
+  {
     display: flex;
     align-items: left;
     align-self: left;
     margin: 10px;
     height: 500px;
   }
-  .caja-contacto {
+  .caja-contacto
+  {
     grid-template-columns: 1fr;
     min-width: 320px;
     align-self: center;
     align-items: center;
   }
-  .caja-contacto h2 {
+  .caja-contacto h2
+  {
     font-size: 30px;
   }
-  input::placeholder {
+  input::placeholder
+  {
     font-size: 15px;
   }
-  textarea::placeholder {
+  textarea::placeholder
+  {
     font-size: 15px;
   }
 }
+
+
+
+
 /*ASÍ SE COMENTA EN CSS
 color: #ad7251*/
-
-/*# sourceMappingURL=estilos.css.map */
