@@ -18,7 +18,7 @@ html, body
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@400;700&display=swap');
 
-/*NAVBAR*/
+//NAVBAR
 .topnav {
   background-color: $color-fondo;
   overflow: hidden;
@@ -92,7 +92,7 @@ html, body
     text-align: center;
   }
 }
-/*CARUSEL*/
+//CARUSEL
 .c-item {
   height: 650px;
   filter: brightness(0.8);
@@ -114,7 +114,7 @@ html, body
     height: 400px;
   }
 }
-/*CAFETERAS*/
+//CAFETERAS
 .grid-layout{
   background-color: beige;
   width: 100%;
@@ -184,8 +184,8 @@ html, body
     display: none;
   }
 }
-/*RECETAS*/
-.grid-layout2{
+//RECETAS
+.recetas-grid{
   background-color: beige;
   width: 100%;
   height: auto;
@@ -216,7 +216,7 @@ html, body
 }
 
 @media only screen and (max-width:550px) {
-  .grid-layout2 {
+  .recetas-grid {
     display: inline-block;
     height: auto;
     width: 100%;
@@ -254,7 +254,7 @@ html, body
   }
 }
 
-/*FOOTER*/
+//FOOTER
 footer {
   background-color: $color-letra;
   height: auto;
