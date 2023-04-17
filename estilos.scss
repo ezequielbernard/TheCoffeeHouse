@@ -178,15 +178,14 @@ html, body
   }
 }
 
-
 @media only screen and (max-width:550px) {
   .cafeteras-img {
     display: none;
   }
 }
 //RECETAS
-.recetas-grid{
-  background-color: beige;
+.grid-recetas{
+  background-color: #784d5f;
   width: 100%;
   height: auto;
   display: grid;
@@ -197,7 +196,7 @@ html, body
 .recetas-txt {
   width: auto;
   height: auto;
-  background-color: beige;
+  background-color: #784d5f;
   text-align: center;
   margin: 25px;
   text-decoration: none;
@@ -216,7 +215,7 @@ html, body
 }
 
 @media only screen and (max-width:550px) {
-  .recetas-grid {
+  .grid-recetas {
     display: inline-block;
     height: auto;
     width: 100%;
@@ -253,7 +252,6 @@ html, body
     display: none;
   }
 }
-
 //FOOTER
 footer {
   background-color: $color-letra;
@@ -447,6 +445,38 @@ footer {
   {
     font-size: 15px;
   }
+}
+
+.MasVendidos h2
+{
+  color: $color-letra;
+  text-align: center;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.card
+{
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover
+{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3%);
+}
+
+.card-body
+{
+  padding: 15px;
+  text-align: center;
 }
 
 

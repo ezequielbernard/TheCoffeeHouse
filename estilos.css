@@ -163,6 +163,70 @@ html, body {
     display: none;
   }
 }
+.grid-recetas {
+  background-color: #784d5f;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  cursor: auto;
+}
+
+.recetas-txt {
+  width: auto;
+  height: auto;
+  background-color: #784d5f;
+  text-align: center;
+  margin: 25px;
+  text-decoration: none;
+}
+
+.recetas-txt h1 {
+  color: black;
+  margin-top: 70px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.recetas-txt p {
+  color: black;
+  margin-bottom: 85px;
+}
+
+@media only screen and (max-width: 550px) {
+  .grid-recetas {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.178)), url("/Img/Img Varias/cafetera-moka-italiana-bigstock.jpeg");
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .recetas-txt {
+    display: inline-block;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@media only screen and (max-width: 550px) {
+  .recetas-txt p {
+    color: white;
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .recetas-txt h1 {
+    color: white;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .recetas-img {
+    display: none;
+  }
+}
 footer {
   background-color: black;
   height: auto;
@@ -209,6 +273,7 @@ footer {
   color: #ad7251;
 }
 
+/*CONTACTO*/
 .contenedor-contacto {
   position: relative;
   display: flex;
@@ -335,7 +400,34 @@ footer {
     font-size: 15px;
   }
 }
-/*ASÍ SE COMENTA EN CSS
-color: #ad7251*/
+.MasVendidos h2 {
+  color: black;
+  text-align: center;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.card-body {
+  padding: 15px;
+  text-align: center;
+}
+
+/*ASÍ SE COMENTA EN CSS*/
 
 /*# sourceMappingURL=estilos.css.map */
