@@ -1,3 +1,8 @@
+// Colores
+$color-fondo: whitesmoke;
+$color-logo: #ad7251;
+$color-letra: black;
+
 * {
   padding: 0;
   margin: 0;
@@ -14,7 +19,7 @@ html, body
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@400;700&display=swap');
 
 .topnav {
-  background-color: whitesmoke;
+  background-color: $color-fondo;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -196,7 +201,7 @@ footer {
   margin: auto;
   line-height: 28px;
   font-size: 16px;
-  color: whitesmoke;
+  color: $color-fondo;
   cursor: auto;
 }
 
@@ -213,7 +218,7 @@ footer {
 
 .socials-icons a {
   text-decoration: none;
-  color: whitesmoke;
+  color: $color-fondo;
 }
 
 .socials-icons a i {
@@ -222,7 +227,7 @@ footer {
 }
 
 .socials-icons a:hover {
-  color: #ad7251;
+  color: $color-logo;
 }
 
 .contenedor-contacto
@@ -292,7 +297,7 @@ footer {
   height: 4px;
   width: 50px;
   border-radius: 2px;
-  background-color: #ad7251 ;
+  background-color: $color-logo;
 }
 
 .relleno
@@ -328,7 +333,7 @@ footer {
   width: 100%;
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
-  background-color: #ad7251;
+  background-color: $color-logo;
   cursor: pointer;
   outline: none;
   border: none;
@@ -375,5 +380,4 @@ footer {
 
 
 
-/*ASÍ SE COMENTA EN CSS
-color: #ad7251*/
+/*ASÍ SE COMENTA EN CSS*/
