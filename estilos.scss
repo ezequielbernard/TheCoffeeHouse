@@ -18,6 +18,7 @@ html, body
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@400;700&display=swap');
 
+/*NAVBAR*/
 .topnav {
   background-color: $color-fondo;
   overflow: hidden;
@@ -38,7 +39,7 @@ html, body
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: $color-letra;
   text-align: center;
   padding: 15px 16px;
   text-decoration: none;
@@ -47,7 +48,7 @@ html, body
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: $color-letra;
   height: 60px;
 }
 
@@ -91,7 +92,7 @@ html, body
     text-align: center;
   }
 }
-
+/*CARUSEL*/
 .c-item {
   height: 650px;
   filter: brightness(0.8);
@@ -113,8 +114,8 @@ html, body
     height: 400px;
   }
 }
-
-.grid-layout {
+/*CAFETERAS*/
+.grid-layout{
   background-color: beige;
   width: 100%;
   height: auto;
@@ -133,14 +134,14 @@ html, body
 }
 
 .cafeteras-txt h1 {
-  color: black;
+  color: $color-letra;
   margin-top: 70px;
   padding-bottom: 30px;
   font-weight: bold;
 }
 
 .cafeteras-txt p {
-  color: black;
+  color: $color-letra;
   margin-bottom: 85px;
 }
 
@@ -183,9 +184,79 @@ html, body
     display: none;
   }
 }
+/*RECETAS*/
+.grid-layout2{
+  background-color: beige;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  cursor: auto;
+}
 
+.recetas-txt {
+  width: auto;
+  height: auto;
+  background-color: beige;
+  text-align: center;
+  margin: 25px;
+  text-decoration: none;
+}
+
+.recetas-txt h1 {
+  color: $color-letra;
+  margin-top: 70px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.recetas-txt p {
+  color: $color-letra;
+  margin-bottom: 85px;
+}
+
+@media only screen and (max-width:550px) {
+  .grid-layout2 {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.178)), url("/Img/Img Varias/cafetera-moka-italiana-bigstock.jpeg");
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width:550px) {
+  .recetas-txt {
+    display: inline-block;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+@media only screen and (max-width:550px) {
+  .recetas-txt p {
+    color: white;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width:550px) {
+  .recetas-txt h1 {
+    color: white;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width:550px) {
+  .recetas-img {
+    display: none;
+  }
+}
+
+/*FOOTER*/
 footer {
-  background-color: black;
+  background-color: $color-letra;
   height: auto;
   width: 100%;
   padding-top: 10px;
@@ -230,6 +301,7 @@ footer {
   color: $color-logo;
 }
 
+/*CONTACTO*/
 .contenedor-contacto
 {
   position: relative;
