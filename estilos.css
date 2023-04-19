@@ -601,10 +601,113 @@ footer {
 }
 
 @media only screen and (max-width: 550px) {
-  .delaplantaatutaza-titulo {
+  .imagen-cafetaza img {
     width: 100%;
-    margin: 20px;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .plantataza {
+    text-align: center;
     height: auto;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .delaplantaatutaza-titulo {
+    background-color: white;
+    display: block;
+    width: 70%;
+    padding: 10px;
+    height: 270px;
+    margin: 100px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10%;
+    height: auto;
+  }
+  .delaplantaatutaza-titulo p {
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+  }
+  .delaplantaatutaza-titulo h1 {
+    color: #ad7251;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .sale {
+    display: block;
+    z-index: 10;
+    margin: 10px;
+  }
+  .imagen-sale img {
+    display: none;
+  }
+  .sale-cafe {
+    display: block;
+    text-align: center;
+    background-color: white;
+    z-index: 1;
+    height: auto;
+    width: auto;
+    border-radius: 10%;
+  }
+  .sale-cafe h3 {
+    color: #ad7251;
+  }
+  .sale-cafe p {
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 25px;
+  }
+  .fruto {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  .fruto-texto h3 {
+    margin-top: 150px;
+    color: #ad7251;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .fruto-img img {
+    display: none;
+  }
+  .secado-texto-metodo {
+    display: block;
+    column-count: 2;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .secado-texto {
+    margin: 30px;
+    margin-bottom: 50px;
+  }
+  .metodo-seco {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10%;
+    margin: 5px;
+  }
+  .metodo-humedo {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10%;
+    margin: 5px;
+  }
+  .secado-texto h3 {
+    color: #ad7251;
+    margin: 10px;
+  }
+  .secado-texto p {
+    margin: 10px;
+  }
+  .secado-texto h5 {
+    color: #ad7251;
+  }
+  .secado-img img {
+    display: none;
   }
 }
 /*ASÍ SE COMENTA EN CSS*/
