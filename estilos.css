@@ -710,40 +710,74 @@ footer {
     display: none;
   }
 }
-.imagen-recetas {
-  width: 100%;
-  height: 1px;
-}
-
 .recetas {
-  width: 100%;
-  height: 100%;
   display: inline-block;
-  background-color: blue;
+  width: 100%;
+  height: 1200px;
+  background-color: whitesmoke;
 }
 
 .imagen-recetas {
   display: inline-block;
   width: 100%;
-  height: 350px;
-  background-image: url("./Img/hot_mocha.jpg");
+  background-image: url("./Img/fondoblanco.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.imagen-recetas h1 {
-  color: whitesmoke;
+.imagen-recetas h3 {
+  color: black;
+  text-align: center;
+  margin: 50px;
+  letter-spacing: 10px;
+}
+
+.imagen-recetas span {
+  color: #ad7251;
+}
+
+.imagenes-recetas {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.imagenes-recetas img {
+  margin-top: 50px;
+  border-radius: 70%;
+}
+
+.imagenes-recetas h6 {
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.buscando {
+  text-align: center;
   margin: 50px;
 }
 
-.imagen-recetas h5 {
-  color: whitesmoke;
-  text-align: left;
-  width: 40%;
-  text-align: justify;
-  line-height: 1.5;
+.buscando h3 {
+  color: black;
+  text-align: center;
   margin: 50px;
-  margin-top: 60px;
+  letter-spacing: 5px;
+}
+
+.buscando span {
+  color: #ad7251;
+}
+
+.recetas-card {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: whitesmoke;
+  cursor: default;
 }
 
 /*ASÍ SE COMENTA EN CSS*/
