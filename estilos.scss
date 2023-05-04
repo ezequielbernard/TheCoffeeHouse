@@ -487,6 +487,18 @@ footer {
   text-align: center;
 }
 
+@media only screen and (max-width:550px)
+{.card-group
+  {
+    display:block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 1.5;
+    margin: -20px;
+  }
+
+}
 /*DE LA PLANTA A LA TAZA*/ 
 
 
@@ -1080,7 +1092,7 @@ time {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
   .receta-shangai ul li {
     margin-left: 20px;
   }
@@ -1154,9 +1166,43 @@ time {
   }
 }
 
+@media only screen and (max-width:550px)
+{.imagenes-recetas
+  {
+    display: none;
+  }
+}
 
+@media only screen and (max-width:550px)
+{
+  .imagen-recetas h3
+  {
+    font-size: 18px;
+  }
+}
 
+@media only screen and (max-width:550px)
+{
+  .recetas-card
+  {
+    display:block;
+    height: 3100px;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    margin-left: -10px;
+  }
+}
 
+@media only screen and (max-width:550px)
+{
+  .shangai-resumen
+  {
+    left: -400px;
+    height: auto;
+    text-align: center;
+  }
+}
 
 
   
