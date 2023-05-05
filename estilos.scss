@@ -158,14 +158,29 @@ html, body
   {
     display: inline-block;
     height: auto;
-    width: 100%;
+    width: 428px;
     margin: 0px;
-    background-color: red;
+    background-color: #faf9f8;
     text-align: center;
   }
     .cafeteras-img 
     {
       display: none;
+    }
+    .grid-layout .cafeteras-txt  p
+    {
+      margin: 15px;
+      margin-bottom: 35px;
+      font-size: small;
+    }
+    .grid-layout .cafeteras-txt  h1
+    {
+      margin: 5px;
+      font-size: bold;
+    }
+    .grid-layout .cafeteras-txt  button
+    {
+      margin:20px;
     }
 }
 
