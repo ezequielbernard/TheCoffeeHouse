@@ -1191,14 +1191,14 @@ time {
     align-items: center;
     margin-top: 70%;
   }
-  .description {
+  .shop .description {
+    border-left: 2px solid #efefef;
     height: 400px;
-    margin: -20px;
-    padding: 0px;
+    padding: 10px;
+    text-align: center;
   }
   .shop .description button {
     width: 100%;
-    margin-top: -20px;
   }
   .shop .description p {
     font-size: 12px;
