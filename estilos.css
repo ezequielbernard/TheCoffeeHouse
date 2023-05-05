@@ -130,6 +130,20 @@ html, body {
 }
 
 @media only screen and (max-width: 550px) {
+  .grid-layout.cafeteras-txt {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.178)), url("/Img/Img Varias/cafetera-moka-italiana-bigstock.jpeg");
+    background-size: cover;
+    text-align: center;
+  }
+  .cafeteras-img {
+    display: none;
+  }
+}
+/*@media only screen and (max-width:550px) {
   .grid-layout {
     display: inline-block;
     height: auto;
@@ -139,30 +153,34 @@ html, body {
     background-size: cover;
   }
 }
-@media only screen and (max-width: 550px) {
+
+@media only screen and (max-width:550px) {
   .cafeteras-txt {
     display: inline-block;
     height: 100%;
     background-color: rgba(0, 0, 0, 0);
   }
 }
-@media only screen and (max-width: 550px) {
+
+@media only screen and (max-width:550px) {
   .cafeteras-txt p {
     color: white;
     font-size: small;
   }
 }
-@media only screen and (max-width: 550px) {
+
+@media only screen and (max-width:550px) {
   .cafeteras-txt h1 {
     color: white;
     font-weight: bold;
   }
 }
-@media only screen and (max-width: 550px) {
+
+@media only screen and (max-width:550px) {
   .cafeteras-img {
     display: none;
   }
-}
+}*/
 .grid-recetas {
   background-color: #784d5f;
   width: 100%;

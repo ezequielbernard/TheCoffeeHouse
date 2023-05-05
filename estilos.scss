@@ -154,6 +154,23 @@ html, body
 }
 
 @media only screen and (max-width:550px) {
+  .grid-layout.cafeteras-txt 
+  {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.178)), url("/Img/Img Varias/cafetera-moka-italiana-bigstock.jpeg");
+    background-size: cover;
+    text-align: center;
+  }
+    .cafeteras-img 
+    {
+      display: none;
+    }
+}
+
+/*@media only screen and (max-width:550px) {
   .grid-layout {
     display: inline-block;
     height: auto;
@@ -190,7 +207,7 @@ html, body
   .cafeteras-img {
     display: none;
   }
-}
+}*/
 //RECETAS
 .grid-recetas{
   background-color: #784d5f;
