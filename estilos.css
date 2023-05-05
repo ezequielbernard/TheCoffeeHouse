@@ -148,6 +148,7 @@ html, body {
   }
   .grid-layout .cafeteras-txt h1 {
     margin: 5px;
+    margin-top: 35px;
     font-size: bold;
   }
   .grid-layout .cafeteras-txt button {
