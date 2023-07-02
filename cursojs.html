@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carrito de Compras</title>
+  <script src="carrito.js"></script>
+</head>
+<body>
+  <h1>Carrito de Compras</h1>
+  
+  <div id="cart">
+    <h2>Carrito</h2>
+    <ul id="cart-items">
+      <!-- Aquí se agregarán los elementos del carrito -->
+    </ul>
+    <p>Total: $<span id="cart-total">0.00</span></p>
+    <button onclick="checkout()">Finalizar Compra</button>
+  </div>
+  
+  <div id="products">
+    <h2>Productos</h2>
+    <ul id="product-list">
+      <li>
+        <span>Producto 1</span>
+        <button onclick="addToCart('Producto 1', 10.00)">Agregar al Carrito</button>
+      </li>
+      <li>
+        <span>Producto 2</span>
+        <button onclick="addToCart('Producto 2', 15.00)">Agregar al Carrito</button>
+      </li>
+      <!-- Agrega más productos aquí -->
+    </ul>
+  </div>
+</body>
+</html>
